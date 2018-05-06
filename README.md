@@ -7,7 +7,7 @@ I created it according to instructions at: https://digiaonline.github.io/html5-t
 
 Deployed at: https://the-html5-test.000webhostapp.com/ (page is down 1h per day)
 
-Downloadable from: https://github.com/IlkkaA/the-html5-test.git
+Github repository: https://github.com/IlkkaA/the-html5-test.git
 
 ### To try this app on your computer, do the following:
 
@@ -15,7 +15,7 @@ Downloadable from: https://github.com/IlkkaA/the-html5-test.git
 * copy the following content from the repository into the created app: index.html at /public folder, all content at /src folder, readme.md
 * install the node packages mentioned below to the new app
 
-### node packages installed to this app
+### Node packages installed to this app
 
 * axios (for API call)
 * uuid (for creating unique keys)
