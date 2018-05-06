@@ -131,14 +131,6 @@ class App extends React.Component {
     );
   }
 
-  // updateAfterNewParticipant = () => {
-  //   this.setState({
-  //     editedParticipants: this.state.participants
-  //   },
-  //   this.generateNewUuid()
-  //   );
-  // }
-
   startParticipantEditing = id => {
     let editedParticipantsCopy = this.state.editedParticipants.slice();
     let indexOfSaved = editedParticipantsCopy.findIndex(index => index.id === id);
