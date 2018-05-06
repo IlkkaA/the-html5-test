@@ -107,6 +107,17 @@ class App extends React.Component {
         },
         ...this.state.participants
       ],
+      editedParticipants: [
+        {
+          uuid: this.state.newUuid,
+          id: this.state.newId,
+          fullName: this.state.newName,
+          email: this.state.newEmail,
+          phone: this.state.newPhone,
+          isEditing: false
+        },
+        ...this.state.participants
+      ],
       newId: this.state.newId + 1,
       newName: '',
       newEmail: '',
@@ -119,6 +130,14 @@ class App extends React.Component {
     this.generateNewUuid()
     );
   }
+
+  // updateAfterNewParticipant = () => {
+  //   this.setState({
+  //     editedParticipants: this.state.participants
+  //   },
+  //   this.generateNewUuid()
+  //   );
+  // }
 
   startParticipantEditing = id => {
     let editedParticipantsCopy = this.state.editedParticipants.slice();
