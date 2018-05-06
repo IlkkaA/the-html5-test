@@ -11,9 +11,9 @@ Downloadable from: https://github.com/IlkkaA/the-html5-test.git
 
 ### To try this app on your computer, do the following:
 
-*create new project with create-react-app
-*copy the following content from the repository into the created project: index.html at /public folder, all content at /src folder, readme.md
-*install the node packages mentioned below to the project
+* create new project with create-react-app
+* copy the following content from the repository into the created project: index.html at /public folder, all content at /src folder, readme.md
+* install the node packages mentioned below to the app
 
 ### node packages installed to this app
 
@@ -36,4 +36,4 @@ Downloadable from: https://github.com/IlkkaA/the-html5-test.git
 * It would be good if a more experienced developer checked function at App.js if the code is according to good React coding standards :) If not, the function can be updated. But at it's current form the function works and throws no errors.
 * Now input validation is done only when new participant is being added but not when the participants in the ParticipantTable are being edited. Possibly useful to connect validateField function to the ParticipantTable edits.
 * Now all participants have unique Uuid key, but the keys dont have a real function in this app, I just created them according to the instructions. Removing these keys is possible if they really are not needed.
-* The only thing I've noticed that are not in this app according to the instuctions are the font weights on h1, p, input elements.
+* The only thing I've noticed that are not in this app according to the instuctions are the font weights on h1, p & input elements.
