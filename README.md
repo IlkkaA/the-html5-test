@@ -2,13 +2,11 @@
 
 ### General description of the app
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
 I created it according to instructions at: https://digiaonline.github.io/html5-test/
 
-The app has one stateful component (App.js), and five stateless components which show data and passes data back to the App.js where kind of all logic really happens.
-
-As this was my first finished react-app, I'm not completely sure if some parts of the code should be updated.
-
 Deployed at: https://the-html5-test.000webhostapp.com/ (page is down 1h per day)
+
 Downloadable from: https://github.com/IlkkaA/the-html5-test.git
 
 ### node packages installed to this app
@@ -30,3 +28,4 @@ Downloadable from: https://github.com/IlkkaA/the-html5-test.git
 * It would be good if a more experienced developer checked function at App.js if the code is according to good React coding standards :) If not, the function can be updated. But at it's current form the function works and throws no errors.
 * Now input validation is done only when new participant is being added but not when the participants in the ParticipantTable are being edited. Possibly useful to connect validateField function to the ParticipantTable edits.
 * Now all participants have unique Uuid key, but the keys dont have a real function in this app, I just created them according to the instructions. Removing these keys is possible if they really are not needed.
+* The only thing I've noticed that are not in this app according to the instuctions are the font weights on h1, p, input elements.
